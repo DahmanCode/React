@@ -3,13 +3,16 @@ import Header from './Header';
 import Text from './Text';
 import Types from './Types';
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
-      <Header/>
-      <Text/>
-      <Types/>
-    </div>
+    <>
+      <div className="container">
+        <Header/>
+        <Text/>
+        <Types/>
+      </div>
+    </>
+    
   );
 }
 

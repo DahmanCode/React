@@ -1,13 +1,14 @@
 import React from "react";
 
-function TypeItems(props){
+const TypeItems = (props) => {
+    const {id, icon, comp} = props;
     return(
         <li className='list-group-item'>
             
-            <input type="checkbox" id={props.id}/>
-            <label htmlFor={props.id}>
-                <i className={props.icon} ></i>
-                {props.Comp}
+            <input type="checkbox" id={id}/>
+            <label htmlFor={id}>
+                <i className={icon} ></i>
+                {comp}
             </label>
         </li>
     )

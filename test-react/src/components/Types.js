@@ -1,27 +1,27 @@
 import React from 'react';
 import TypeItems from './TypeItems'
 
-function Types(){
+const Types = () => {
     return(
         <div>
             <TypeItems 
                 icon = "fa-brands fa-facebook"
-                Comp = "Facebook"
+                comp = "Facebook"
                 id = "facebook"
             />
             <TypeItems
                 icon = "fa-brands fa-twitter"
-                Comp = "Twitter"
+                comp = "Twitter"
                 id = "twitter"
             />
             <TypeItems
                 icon = "fa-brands fa-instagram"
-                Comp = "Instagram"
+                comp = "Instagram"
                 id = "instagram"
             />
             <TypeItems
                 icon = "fa-brands fa-twitch"
-                Comp = "Twitch"
+                comp = "Twitch"
                 id = "twitch"
             />
         </div>
