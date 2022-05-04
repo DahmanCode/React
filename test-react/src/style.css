@@ -1,0 +1,28 @@
+.container{
+    margin-top: 10px;
+}
+.navbar{
+    justify-content: center;
+}
+
+div{
+    margin-bottom: 20px;
+}
+input{
+    margin-right: 10px;
+}
+i{
+    margin-right: 10px;
+}
+.fa-facebook {
+    color: blue;
+}
+.fa-twitter {
+    color: #1c9bf0;
+}
+.fa-instagram {
+    color: rgb(199, 43, 95);
+}
+.fa-twitch {
+    color: rgb(140, 0, 255);
+}
